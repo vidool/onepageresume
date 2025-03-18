@@ -1,0 +1,180 @@
+/* 基本样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    color: #495057;
+    line-height: 1.6;
+}
+
+/* 头部样式 */
+header {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ced4da;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+/* 头部图片样式 */
+header img {
+    border-radius: 50%;
+}
+
+/* 导航栏样式 */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #adb5bd;
+}
+
+/* 主要内容样式 */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-top: 0;
+    border-bottom: 1px solid #ced4da;
+    padding-bottom: 10px;
+}
+
+/* 教育经历样式 */
+#education ul {
+    list-style: none;
+    padding: 0;
+}
+
+#education li {
+    margin-bottom: 15px;
+}
+
+#education h3 {
+    font-size: 1.5em;
+    color: #0083ff;
+    margin-bottom: 5px;
+}
+
+#education p {
+    margin: 5px 0;
+}
+
+/* 荣誉样式 */
+#awards ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* 联系方式样式 */
+#contact p {
+    margin: 5px 0;
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    border-top: 1px solid #ced4da;
+    color: #fff;
+}
+
+/* 表单样式 */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* 作者悬浮框样式 */
+.author-float {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    color: #495057;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    text-align: center;
+}
+
+/* 关于本站样式 */
+#about-site {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-site h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-top: 0;
+    border-bottom: 1px solid #ced4da;
+    padding-bottom: 10px;
+}
